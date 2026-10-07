@@ -2,12 +2,8 @@
 # megatouch-host loads the game with RTLD_NOW, so each of these must be defined
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
-Profiler::DelInstance() | hoopjones.so
-Profiler::Stop(std::basic_string<char, std::char_traits<char>, std::allocator<char> >) | hoopjones.so
-Profiler::Start(std::basic_string<char, std::char_traits<char>, std::allocator<char> >) | hoopjones.so
 SoundOGG::IsOGGPaused(SoundOGG*) | hoopjones.so
 SoundOGG::IsOGGPlaying(SoundOGG*) | hoopjones.so
 SoundOGG::PlayOGG(char*, unsigned short, int) | hoopjones.so
 SoundOGG::StopOGG(SoundOGG*) | hoopjones.so
 SoundOGG::PauseOGG(SoundOGG*, bool) | hoopjones.so
-mouse_button_presses_cached | hoopjones.so
