@@ -4,6 +4,4 @@
 # symbol | needed by
 SoundOGG::IsOGGPaused(SoundOGG*) | hoopjones.so
 SoundOGG::IsOGGPlaying(SoundOGG*) | hoopjones.so
-SoundOGG::PlayOGG(char*, unsigned short, int) | hoopjones.so
-SoundOGG::StopOGG(SoundOGG*) | hoopjones.so
 SoundOGG::PauseOGG(SoundOGG*, bool) | hoopjones.so
