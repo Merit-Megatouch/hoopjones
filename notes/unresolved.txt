@@ -2,33 +2,6 @@
 # megatouch-host loads the game with RTLD_NOW, so each of these must be defined
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
-LinkEasyMode | hoopjones.so
-NetGlob | hoopjones.so
-RankFunc | hoopjones.so
-Card_PollLinks() | hoopjones.so
-Debug_Flag_Set(char const*, char const*) | hoopjones.so
-Card_ActiveDelay(int) | hoopjones.so
-Card_ProcessInfo() | hoopjones.so
-Card_LinkWaitForAll(unsigned long) | hoopjones.so
-Card_ProcessRTPackets(unsigned char) | hoopjones.so
-MeritthonDisplayRound(int, int, int, unsigned long) | hoopjones.so
-GetMyId() | hoopjones.so
-GetMaster() | hoopjones.so
-NetGlobals::GetLeaderScore() | hoopjones.so
-NetGlobals::GetRank(unsigned char) | hoopjones.so
-WorldClass::AnimationFrames(Bitmap*) | hoopjones.so
-WorldClass::LoadBmp(char const*, int, float, int, int, bool, bool, Bitmap*) | hoopjones.so
-WorldClass::GetFrame(Bitmap*, int) | hoopjones.so
-WorldClass::DeleteBmp(Bitmap*, unsigned char) | hoopjones.so
-system_info::SystemInfo::GetInstance() | hoopjones.so
-system_info::SystemInfo::IsPlatformForce() | hoopjones.so
-Bitmap::DeCompress32() | hoopjones.so
-Bitmap::Scale(int, int, unsigned char) | hoopjones.so
-Sprite::AssignString(String*, unsigned long) | hoopjones.so
-Sprite::ProcessAssignedString() | hoopjones.so
-Sprite::SetSize(int, int) | hoopjones.so
-Sprite::Sprite(Bitmap*, unsigned long, Sprite*) | hoopjones.so
-String::String(char const*, int, char const*, int, signed char, int, int, int, unsigned char, unsigned char, unsigned short) | hoopjones.so
 Profiler::DelInstance() | hoopjones.so
 Profiler::Stop(std::basic_string<char, std::char_traits<char>, std::allocator<char> >) | hoopjones.so
 Profiler::Start(std::basic_string<char, std::char_traits<char>, std::allocator<char> >) | hoopjones.so
@@ -37,15 +10,4 @@ SoundOGG::IsOGGPlaying(SoundOGG*) | hoopjones.so
 SoundOGG::PlayOGG(char*, unsigned short, int) | hoopjones.so
 SoundOGG::StopOGG(SoundOGG*) | hoopjones.so
 SoundOGG::PauseOGG(SoundOGG*, bool) | hoopjones.so
-_rgb_a_shift_32 | hoopjones.so
-_rgb_b_shift_32 | hoopjones.so
-_rgb_g_shift_32 | hoopjones.so
-_rgb_r_shift_32 | hoopjones.so
-blit | hoopjones.so
-clear_bitmap | hoopjones.so
-create_bitmap_ex | hoopjones.so
-destroy_bitmap | hoopjones.so
-makeacol_depth | hoopjones.so
-masked_blit | hoopjones.so
 mouse_button_presses_cached | hoopjones.so
-screen | hoopjones.so
